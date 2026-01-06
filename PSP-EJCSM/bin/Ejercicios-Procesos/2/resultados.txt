@@ -1,0 +1,3 @@
+Fichero 1: 0
+Fichero 2: 7
+Fichero 3: 1

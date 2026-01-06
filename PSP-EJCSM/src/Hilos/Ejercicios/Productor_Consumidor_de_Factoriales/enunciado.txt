@@ -1,0 +1,31 @@
+Ejercicio 5: Productor-Consumidor de Factoriales
+Implementa un programa en Java que simule el problema del Productor-Consumidor
+utilizando hilos. En este escenario, hay varios productores que generan números enteros
+aleatorios y los depositan en una cola compartida de tamaño fijo. Simultáneamente, hay
+varios consumidores que toman los números de la cola, calculan su factorial e imprimen el
+resultado en la consola.
+Reglas del problema:
+1. Productores:
+○ Cada productor debe generar un número entero aleatorio entre 1 y 10.
+○ El número generado debe colocarse en una cola compartida.
+○ Si la cola está llena, el productor debe esperar hasta que haya espacio
+disponible.
+2. Consumidores:
+○ Los consumidores deben tomar los números de la cola.
+○ Por cada número que tomen, deben calcular el factorial de dicho número.
+○ Una vez calculado, deben imprimir en la consola el número original y su
+factorial.
+○ Si la cola está vacía, el consumidor debe esperar hasta que haya números
+disponibles.
+3. Cola compartida de tamaño fijo:
+○ La cola utilizada para compartir los números entre los productores y
+consumidores debe tener un tamaño máximo predefinido.
+○ Si la cola está llena, los productores deben esperar hasta que haya espacio
+disponible para producir.
+○ Si la cola está vacía, los consumidores deben esperar hasta que haya
+números disponibles.
+○ El acceso a la cola debe estar protegido para evitar condiciones de carrera
+mediante el uso de técnicas de sincronización (synchronized, wait(),
+notifyAll()).
+4. El programa debe funcionar con múltiples productores y consumidores
+ejecutándose en paralelo. 

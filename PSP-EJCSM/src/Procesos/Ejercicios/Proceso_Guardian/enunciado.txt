@@ -1,0 +1,7 @@
+Ejercicio 1: Proceso Guardian
+Desarrolla un programa en Java para lanzar el navegador Firefox abriendo la canción
+"Never Gonna Give You Up" en YouTube. Cada vez que el proceso de Firefox termine (es
+decir, cada vez que el navegador sea cerrado por el usuario), el programa debe lanzar
+nuevamente el proceso de Firefox con la misma URL. El objetivo es que el navegador
+siempre esté ejecutándose con la canción abierta, a menos que el programa de Java sea
+detenido manualmente.

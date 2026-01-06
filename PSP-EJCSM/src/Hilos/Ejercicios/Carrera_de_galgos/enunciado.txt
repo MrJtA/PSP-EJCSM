@@ -1,0 +1,13 @@
+Ejercicio 5: Carrera de Galgos
+Implementar un programa en Java que simule una carrera de galgos utilizando hilos. Cada
+hilo representará un galgo, y el progreso de cada caballo se debe simular utilizando
+Thread.sleep() con tiempos aleatorios. El número de caballos y la distancia de la carrera
+será especificado por el usuario.
+Requisitos:
+1. Debes implementar un método public static void startRace(int numDogs,
+int distance) que reciba como parámetros el número de galgos y la distancia de
+la carrera.
+2. Cada hilo debe representar un galgo y debe avanzar en la carrera en intervalos de
+tiempo aleatorios.
+3. El programa debe imprimir el progreso de cada galgo y notificar cuándo llegue a la
+meta, indicando el tiempo total que ha tardado.

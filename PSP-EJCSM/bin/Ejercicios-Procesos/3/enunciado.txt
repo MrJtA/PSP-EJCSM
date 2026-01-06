@@ -1,0 +1,21 @@
+Ejercicio 3: Menú Interactivo
+Escribir un programa en Java que ofrezca un menú interactivo al usuario con las siguientes
+opciones:
+1. Lanzar un sleep de duración determinada por el usuario en foreground:
+El programa debe pedir al usuario que ingrese el tiempo en segundos para ejecutar
+el comando sleep. El proceso sleep debe ejecutarse en foreground (primer
+plano), lo que significa que el programa Java esperará a que el proceso termine
+antes de continuar.
+2. Lanzar un sleep de duración determinada por el usuario en background:
+Similar al primer caso, pero el proceso sleep debe ejecutarse en background
+(segundo plano). El programa Java no debe esperar a que el proceso termine, sino
+que debe continuar ejecutándose y permitir al usuario realizar otras acciones
+mientras el proceso sleep sigue activo.
+3. Mostrar el PID de los procesos aún en ejecución:
+El programa debe mantener un registro de los procesos lanzados en background y
+mostrar al usuario una lista de los PID (Process IDs) de estos procesos que aún
+están en ejecución.
+
+4. Salir:
+Esta opción finaliza el programa Java. Antes de salir, el programa debe asegurarse
+de que todos los procesos lanzados en background han finalizado.

@@ -1,0 +1,29 @@
+Ejercicio 1:
+Desarrolla una simulación de un parking con plazas limitadas usando
+programación multihilo en Java.
+Requisitos:
+1. Plazas limitadas: El parking tiene un número fijo de plazas. Este número debe ser
+configurable.
+2. Vehículos: Cada vehículo será representado por un hilo independiente que intentará
+entrar al parking. Si hay plazas disponibles, el vehículo podrá estacionar. Si no hay
+plazas disponibles, deberá esperar a que se libere alguna.
+3. Tiempo de estacionamiento: Cada vehículo que logre estacionar permanecerá
+dentro del parking durante un tiempo aleatorio (por ejemplo, entre 1 y 5 segundos).
+4. Salida del parking: Después de haber estacionado el tiempo correspondiente, el
+vehículo debe liberar su plaza, permitiendo que otros vehículos puedan entrar.
+
+Ejercicio 2:
+Extiende el ejercicio anterior de simulación de un parking con plazas
+limitadas. En esta nueva versión, debes implementar un sistema de
+facturación que calcule automáticamente el costo de estancia de cada
+vehículo en función del tiempo que permanezca en el parking.
+Requisitos Adicionales:
+1. Implementa una variable que mantenga un registro de la facturación total acumulada
+en el parking.
+2. Cada vehículo deberá pagar 10 € por cada segundo que permanezca en el parking.
+Al salir, se debe calcular el costo total basado en el tiempo de estancia.
+3. Protege el acceso a la variable de facturación utilizando un Lock para evitar
+condiciones de carrera. Asegúrate de que solo un hilo pueda actualizar la facturación
+a la vez.
+4. Al finalizar la simulación, muestra el total acumulado en la facturación del parking.
+Además, cada vez que un vehículo salga, imprime el costo total que debe pagar

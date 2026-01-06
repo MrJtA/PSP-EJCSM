@@ -1,0 +1,11 @@
+Ejercicio 4: Cálculo de números primos
+Implementa un programa en Java que calcule cuántos números primos hay en un rango
+especificado, utilizando varios hilos. El rango y el número de hilos que se deben utilizar será
+especificado por el usuario.
+Requisitos:
+1. Debes implementar un método public static int countPrimes(int
+rangeStart, int rangeEnd, int numThreads) que reciba como parámetros el
+inicio y el final del rango, y el número de hilos que se deben utilizar.
+2. El rango de números debe dividirse equitativamente entre los hilos.
+3. Cada hilo debe contar los números primos en su porción del rango.
+4. El método principal debe retornar el número total de números primos en el rango. 

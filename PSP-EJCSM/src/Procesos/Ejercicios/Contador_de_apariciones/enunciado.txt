@@ -1,0 +1,10 @@
+Ejercicio 2: Contador de apariciones
+En el aula virtual encontrarás un shell script llamado contar_palabras.sh que recibe
+como argumentos un archivo de texto y una palabra, y devuelve el número de apariciones
+de esa palabra en el archivo.
+Escribe un programa en Java que utilice procesos para contar el número de apariciones de
+una determinada palabra en varios archivos de texto diferentes.
+Cada proceso debe escribir su resultado en un fichero llamado resultados.txt. Una vez
+que todos los procesos hayan terminado, el programa Java debe leer el fichero
+resultados.txt, sumar el número total de apariciones de la palabra en todos los
+archivos procesados, e imprimir el total por consola

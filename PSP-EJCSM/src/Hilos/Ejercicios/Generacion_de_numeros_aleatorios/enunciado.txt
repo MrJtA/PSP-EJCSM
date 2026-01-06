@@ -1,0 +1,12 @@
+Ejercicio 3: Generación de números aleatorios
+Implementa un programa en Java que genere una cantidad específica de números
+aleatorios utilizando varios hilos. Cada hilo debe generar una parte de los números
+aleatorios y almacenarlos en un array compartido. El número de números aleatorios y el
+número de hilos que se deben utilizar será especificado por el usuario.
+1. Debes implementar un método public static int[]
+generateRandomNumbers(int numNumbers, int numThreads) que reciba como
+parámetros el número de números aleatorios y el número de hilos.
+2. El conjunto de números aleatorios debe dividirse equitativamente entre los hilos.
+3. Cada hilo debe generar su porción de números aleatorios y almacenarlos en un
+array compartido.
+4. El método debe retornar el array completo de números aleatorios generados.

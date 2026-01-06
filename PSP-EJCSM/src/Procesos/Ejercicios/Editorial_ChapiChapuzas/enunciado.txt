@@ -1,0 +1,32 @@
+Ejercicio 5: Editorial ChapiChapuzas
+La editorial ChapiChapuzas está pensando en expandir su negocio y traducir sus obras a
+nuevos idiomas para aumentar su nicho de mercado. Para ello, quiere automatizar la línea
+de procesos que va desde la correción ortográfica de la obra hasta su traducción.
+Se pide a los alumnos diseñar un programa en Java que gestione una línea de procesos
+para corregir y traducir ficheros de texto de manera automática. El flujo de trabajo consiste
+en:
+1. Corregir las faltas de ortografía del fichero de texto.
+2. Traducir el texto corregido al idioma seleccionado (inglés, italiano o francés).
+Para realizar estas tareas, cuentan con dos scripts:
+● check.sh: Este script corrige las faltas de ortografía del texto.
+● translate.sh: Este script traduce un fichero de texto al idioma seleccionado, con
+las siguientes opciones:
+○ -en para inglés.
+○ -fr para francés.
+○ -it para italiano.
+
+El objetivo es crear un programa que permita gestionar múltiples trabajos de forma
+concurrente, aplicando estas dos operaciones (corrección y traducción) a varios archivos de
+texto.
+Se debe crear la clase Trabajo, que representará una tarea individual de corrección y
+traducción de un fichero. Esta clase debe contener los siguientes atributos:
+● sourcePath: Ruta del fichero de texto de origen que se desea procesar.
+● language: Idioma al que se desea traducir el fichero. Puede ser "en" (inglés), "fr"
+(francés) o "it" (italiano).
+● destinationPath: Ruta del fichero donde se guardará el texto corregido y
+traducido.
+El programa debe permitir procesar varios trabajos simultáneamente o en serie.
+NOTA: Para que los scripts funcionen correctamente este necesario instalar las siguientes
+librerías
+sudo apt install hunspell hunspell-es
+sudo apt install translate-shell

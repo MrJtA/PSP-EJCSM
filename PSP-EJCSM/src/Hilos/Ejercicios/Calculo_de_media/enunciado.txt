@@ -1,0 +1,14 @@
+Ejercicio 1: Cálculo de Media
+Implementa un programa en Java que calcule la media de un array de números enteros,
+utilizando hilos. El número de hilos que se deben utilizar será especificado por el usuario. El
+trabajo se debe dividir equitativamente entre los hilos, y cada hilo calculará la suma de una
+porción del array. Al final, la media total del array se deberá calcular a partir de las sumas
+parciales obtenidas por cada hilo.
+1. Debes implementar un método public static double calculateMean(int[]
+array, int numThreads) que reciba como parámetros el array de números y el
+número de hilos que se utilizarán.
+2. El array debe dividirse entre los hilos de forma equitativa. Si el número de elementos
+no es divisible por el número de hilos, el último hilo se encargará de la porción
+restante.
+3. El método principal debe retornar la media total calculada a partir de los resultados
+obtenidos por los hilos.

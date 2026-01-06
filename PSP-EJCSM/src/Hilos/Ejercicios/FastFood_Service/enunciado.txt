@@ -1,0 +1,27 @@
+Ejercicio 6: FastFood Service
+Se desea simular el funcionamiento de un restaurante utilizando hilos en Java. El sistema
+debe incluir camareros, cocineros y food runners (repartidores de comida), que
+interactúan mediante colas compartidas para gestionar los pedidos de manera concurrente.
+Descripción del escenario:
+1. Camareros:
+○ Los camareros recibirán los pedidos de los clientes y los colocarán en una
+cola de pedidos.
+○ Si la cola de pedidos está llena, el camarero deberá esperar hasta que haya
+espacio disponible.
+○ No es necesario incluir detalles del pedido, pero es necesario simular el
+tiempo que tarda el camarero en tomar nota del pedido.
+2. Cocineros:
+○ Los cocineros leerán los pedidos de la cola de pedidos.
+○ Una vez que un pedido es leído, el cocinero lo preparará (simulado con un
+tiempo de espera).
+○ Cuando el pedido esté preparado, lo colocarán en una segunda cola de
+pedidos preparados.
+○ Si la cola de pedidos está vacía, el cocinero deberá esperar hasta que haya
+nuevos pedidos disponibles.
+3. Food Runners:
+○ Los food runners tomarán los pedidos de la cola de pedidos preparados y los
+llevarán a los clientes.
+○ Una vez que un pedido es entregado, el food runner lo quitará de la cola de
+preparados.
+○ Si la cola de pedidos preparados está vacía, el food runner deberá esperar
+hasta que haya nuevos pedidos listos para ser entregados

@@ -1,0 +1,9 @@
+Ejercicio 3: Urgencias
+Implementa un programa en Java que simule el funcionamiento de las urgencias de un
+hospital, donde los pacientes llegan con diferentes niveles de urgencia (LEVE, MODERADO
+y GRAVE) y deben ser atendidos por un único médico a la vez. Los pacientes más urgentes
+tienen prioridad sobre los demás. Para simular esta prioridad, se usará el mecanismo de
+prioridades de los hilos en Java, donde un hilo con mayor prioridad representa un paciente
+con mayor urgencia.
+Ampliación Ejercicio 3: Urgencias
+Mide el tiempo medio de espera de cada tipo de paciente (LEVE, MODERADO, GRAVE)

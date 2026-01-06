@@ -1,0 +1,13 @@
+Ejercicio 4: Suma de Cuadrados
+Dado los siguientes scripts de shell, los cuales puedes encontrar en el aula virtual:
+1. cuadrados.sh: Dado una lista de números como argumentos, este script devuelve
+los números elevados al cuadrado.
+2. suma.sh: Dado una lista de números como argumentos, este script devuelve la
+suma de dichos números.
+Escribe un programa en Java que reciba una lista de números y calcule la suma de los
+cuadrados de esta haciendo uso de los shell scripts dados.
+Por ejemplo, si el programa recibe la siguiente lista:
+1 2 3
+
+Deberá devolver la suma de los cuadrados, es decir:
+14

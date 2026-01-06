@@ -1,0 +1,13 @@
+Ejercicio 2: Cálculo del máximo y mínimo
+Implementar un programa en Java que calcule el valor máximo y mínimo de un array de
+números enteros, utilizando hilos. El número de hilos que se utilizarán será especificado por
+el usuario.
+1. Debes implementar un método public static int calculateMax(int[] array,
+int numThreads) que reciba como parámetros el array de números y el número de
+hilos que se utilizarán.
+2. Debes implementar un método public static int calculateMin(int[] array,
+int numThreads) que reciba como parámetros el array de números y el número de
+hilos que se utilizarán.
+3. El array debe dividirse entre los hilos de forma equitativa. Si el número de elementos
+no es divisible por el número de hilos, el último hilo se encargará de la porción
+restante.
