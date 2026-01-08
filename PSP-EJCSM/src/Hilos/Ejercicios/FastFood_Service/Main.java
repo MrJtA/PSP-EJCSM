@@ -49,16 +49,16 @@ public class Main {
             foodRunner.start();
         }
         sc.nextLine();
-            System.out.println("Finalizando la jornada...");
-            for (Camarero camarero : camareros) {
-                camarero.pararHilo();
-            }
-            for (Cocinero cocinero : cocineros) {
-                cocinero.pararHilo();
-            }
-            for (FoodRunner foodRunner : foodRunners) {
-                foodRunner.pararHilo();
-            }
+        System.out.println("Finalizando la jornada...");
+        for (Camarero camarero : camareros) {
+            camarero.pararHilo();
+        }
+        for (Cocinero cocinero : cocineros) {
+            cocinero.pararHilo();
+        }
+        for (FoodRunner foodRunner : foodRunners) {
+            foodRunner.pararHilo();
+        }
         
     }
     

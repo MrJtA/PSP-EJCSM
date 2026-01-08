@@ -18,7 +18,7 @@ public class Galgo implements Runnable {
 
     public void run() {
         int pasos = 20;
-        long tiempoPorPaso = tiempoMs/pasos;
+        long tiempoPorPaso = this.tiempoMs/pasos;
         for (int i = 1; i <= pasos; i++) {
             try {
                 Thread.sleep(tiempoPorPaso);
@@ -27,7 +27,7 @@ public class Galgo implements Runnable {
                 return;
             }
             String barra = generarBarraProgreso(i, pasos);
-            System.out.println("Galgo " + numero + " " + barra);
+            System.out.println("Galgo " + this.numero + " " + barra);
         }
         System.out.println("El galgo " + this.numero + " ha terminado. Tiempo: " + String.format("%.2f", this.tiempoS) + "s");
     }
