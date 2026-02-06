@@ -6,11 +6,7 @@ import java.util.concurrent.Semaphore;
 
 public class Tenedor {
 
-    private final Semaphore semaforo; // Semáforo de 1 capacidad que representará la disponibilidad del tenedor.
-
-    public Tenedor() {
-        this.semaforo = new Semaphore(1);
-    }
+    private final Semaphore semaforo = new Semaphore(1); // Semáforo de 1 capacidad que representará la disponibilidad del tenedor.
 
     // Método para que un filósofo tome el tenedor, y bloquee su uso a los demás filósofos por pertenencia del que lo ha agarrado.
     public void usar() throws InterruptedException {
